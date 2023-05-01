@@ -1,0 +1,87 @@
+body{
+    background-color:#f0f0f0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 16px;
+    padding: 10px 60px;
+}
+
+.small-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 5px;
+}
+
+.padding-wrapper {
+    padding: 0 20px;
+}
+
+.small-red {
+    background-color: red;
+}
+
+.small-white {
+    background-color: rgb(251, 250, 250);
+}
+
+.small-black {
+    background-color: rgb(3, 8, 7);
+}
+
+.small-blue {
+    background-color: blue;
+}
+
+.small-green {
+    background-color: green;
+}
+
+.flex-wrapper {
+    margin-top: 30px;
+    display: flex;
+}
+
+.grid-item {
+    border: 1px solid rgba(210, 210, 210, 0.8);
+    border-radius: 2%;
+
+}
+
+.one {
+    background-color: antiquewhite;
+}
+
+.two {
+    grid-column: 2/-1;
+    grid-row: 1/3;
+}
+
+.two:hover .imagee {
+    filter: none;
+}
+
+.three {
+    background-color: antiquewhite;
+
+}
+
+
+.btn1 {
+    padding: 7px;
+    border: 1px solid green;
+    border-radius: 13px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+img {
+    width: 200px;
+    filter: grayscale(100%);
+
+}
+
+.text-section {
+    padding-left: 20px;
+}
